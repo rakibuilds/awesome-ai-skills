@@ -1,0 +1,29 @@
+﻿name: Report Issue or Bug
+description: Report a problem with existing content or links
+title: "[Issue]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where is the issue located?
+      placeholder: e.g., README.md, frameworks section
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: Describe the problem
+      placeholder: What is wrong or broken?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested Fix
+      description: How should this be fixed?
+      placeholder: Your suggestion for resolution...
+    validations:
+      required: false

@@ -1,0 +1,225 @@
+﻿{
+  "name": "Awesome AI Skills",
+  "version": "1.0.0",
+  "description": "A curated collection of essential skills and resources to master Artificial Intelligence",
+  "last_updated": "2026-11-11",
+  "categories": [
+    {
+      "id": "programming-languages",
+      "name": "Programming Languages",
+      "description": "Essential programming languages for AI development",
+      "skills": [
+        {
+          "name": "Python",
+          "level": "essential",
+          "description": "Primary language for AI/ML with extensive library ecosystem",
+          "resources": [
+            {
+              "name": "Official Python Documentation",
+              "url": "https://docs.python.org/3/",
+              "type": "documentation"
+            }
+          ]
+        },
+        {
+          "name": "C++",
+          "level": "advanced",
+          "description": "For performance-critical AI applications and model deployment",
+          "resources": []
+        },
+        {
+          "name": "Rust",
+          "level": "emerging",
+          "description": "Memory-safe systems programming for AI infrastructure",
+          "resources": []
+        },
+        {
+          "name": "Julia",
+          "level": "specialized",
+          "description": "High-performance scientific computing and numerical analysis",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "name": "AI Frameworks & Libraries",
+      "description": "Core frameworks and libraries for building AI systems",
+      "skills": [
+        {
+          "name": "PyTorch",
+          "level": "essential",
+          "description": "Flexible deep learning framework with dynamic computation graphs",
+          "resources": [
+            {
+              "name": "PyTorch Tutorials",
+              "url": "https://pytorch.org/tutorials/",
+              "type": "tutorial"
+            }
+          ]
+        },
+        {
+          "name": "TensorFlow",
+          "level": "essential",
+          "description": "Comprehensive ML platform for production deployment",
+          "resources": []
+        },
+        {
+          "name": "Hugging Face Transformers",
+          "level": "essential",
+          "description": "State-of-the-art NLP models and tools",
+          "resources": []
+        },
+        {
+          "name": "LangChain",
+          "level": "important",
+          "description": "Framework for building LLM-powered applications",
+          "resources": []
+        },
+        {
+          "name": "Scikit-learn",
+          "level": "essential",
+          "description": "Classic machine learning algorithms and tools",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "domains",
+      "name": "Core AI Domains",
+      "description": "Specialized areas within artificial intelligence",
+      "skills": [
+        {
+          "name": "Machine Learning Fundamentals",
+          "level": "essential",
+          "description": "Supervised, unsupervised, and reinforcement learning basics",
+          "resources": []
+        },
+        {
+          "name": "Deep Learning",
+          "level": "essential",
+          "description": "Neural networks, CNNs, RNNs, and Transformers",
+          "resources": []
+        },
+        {
+          "name": "Natural Language Processing",
+          "level": "important",
+          "description": "Text processing, sentiment analysis, and language models",
+          "resources": []
+        },
+        {
+          "name": "Computer Vision",
+          "level": "important",
+          "description": "Image recognition, object detection, and segmentation",
+          "resources": []
+        },
+        {
+          "name": "Generative AI",
+          "level": "important",
+          "description": "LLMs, diffusion models, and creative AI",
+          "resources": []
+        },
+        {
+          "name": "Agentic AI",
+          "level": "emerging",
+          "description": "Autonomous agents and multi-agent systems",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure & MLOps",
+      "description": "Tools and platforms for deploying and managing AI systems",
+      "skills": [
+        {
+          "name": "Cloud Platforms",
+          "level": "important",
+          "description": "AWS SageMaker, Google Vertex AI, Azure AI Services",
+          "resources": []
+        },
+        {
+          "name": "Model Deployment",
+          "level": "important",
+          "description": "Docker, Kubernetes, FastAPI for serving models",
+          "resources": []
+        },
+        {
+          "name": "Vector Databases",
+          "level": "important",
+          "description": "Pinecone, Weaviate, Chroma for RAG systems",
+          "resources": []
+        },
+        {
+          "name": "MLOps Tools",
+          "level": "advanced",
+          "description": "MLflow, Kubeflow for model lifecycle management",
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "name": "Learning Resources",
+      "description": "Curated courses, books, and communities for learning AI",
+      "skills": [
+        {
+          "name": "Andrew Ng Courses",
+          "level": "essential",
+          "description": "Machine Learning and Deep Learning Specializations on Coursera",
+          "resources": [
+            {
+              "name": "Machine Learning Specialization",
+              "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+              "type": "course"
+            }
+          ]
+        },
+        {
+          "name": "Fast.ai",
+          "level": "essential",
+          "description": "Practical deep learning courses",
+          "resources": [
+            {
+              "name": "Practical Deep Learning for Coders",
+              "url": "https://course.fast.ai/",
+              "type": "course"
+            }
+          ]
+        },
+        {
+          "name": "Key Books",
+          "level": "essential",
+          "description": "Foundational texts including Deep Learning by Goodfellow, Hands-On ML by Geron",
+          "resources": []
+        }
+      ]
+    }
+  ],
+  "learning_paths": [
+    {
+      "id": "path-1-foundational",
+      "name": "Foundational AI & ML",
+      "duration_months": 4,
+      "career_outcome": "Data Scientist, ML Engineer",
+      "prerequisites": ["Python", "Mathematics"],
+      "skills_order": ["programming-languages", "frameworks", "domains"]
+    },
+    {
+      "id": "path-2-generative",
+      "name": "Generative AI & LLMs",
+      "duration_months": 2,
+      "career_outcome": "GenAI Engineer, AI Product Developer",
+      "prerequisites": ["Python", "Deep Learning"],
+      "skills_order": ["frameworks", "domains"]
+    },
+    {
+      "id": "path-3-agentic",
+      "name": "Agentic AI & Autonomous Systems",
+      "duration_months": 2,
+      "career_outcome": "AI Architect, Agent Developer",
+      "prerequisites": ["Python", "LLMs"],
+      "skills_order": ["frameworks", "infrastructure"]
+    }
+  ]
+}

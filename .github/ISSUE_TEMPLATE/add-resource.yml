@@ -1,0 +1,42 @@
+﻿name: Add New Resource
+description: Suggest a new AI skill or resource to add to the repository
+title: "[Resource]: "
+labels: ["enhancement", "resource"]
+body:
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: What is the name of the resource?
+      placeholder: e.g., PyTorch Lightning
+    validations:
+      required: true
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: Link to the resource
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this resource belong to?
+      options:
+        - Programming Languages
+        - Frameworks
+        - AI Domains
+        - Infrastructure
+        - Learning Resources
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of why this resource is valuable
+      placeholder: Explain what this resource offers and who it is for...
+    validations:
+      required: true
